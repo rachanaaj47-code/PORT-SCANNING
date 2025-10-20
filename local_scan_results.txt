@@ -1,0 +1,34 @@
+# Nmap 7.98 scan initiated Mon Oct 20 20:25:35 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN local_scan_results.txt 10.162.67.0/24
+Nmap scan report for 10.162.67.100
+Host is up (0.0059s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: F2:BE:A3:52:13:7E (Unknown)
+
+Nmap scan report for 10.162.67.165
+Host is up (0.00059s latency).
+Not shown: 980 closed tcp ports (reset)
+PORT     STATE    SERVICE
+25/tcp   filtered smtp
+110/tcp  filtered pop3
+119/tcp  filtered nntp
+125/tcp  filtered locus-map
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+143/tcp  filtered imap
+445/tcp  open     microsoft-ds
+465/tcp  filtered smtps
+548/tcp  filtered afp
+563/tcp  filtered snews
+587/tcp  filtered submission
+800/tcp  filtered mdbs_daemon
+903/tcp  filtered iss-console-mgr
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1025/tcp filtered NFS-or-IIS
+1122/tcp filtered availant-mgr
+1433/tcp filtered ms-sql-s
+3306/tcp open     mysql
+
+# Nmap done at Mon Oct 20 20:25:45 2025 -- 256 IP addresses (2 hosts up) scanned in 9.95 seconds
