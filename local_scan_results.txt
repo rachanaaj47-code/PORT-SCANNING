@@ -1,4 +1,4 @@
-# Nmap 7.98 scan initiated Mon Oct 20 20:25:35 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN local_scan_results.txt 10.162.67.0/24
+# Nmap 7.98 scan initiated Mon Oct 20 20:25:35 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN local_scan_results.txt XX.XXX.XX.0/24
 Nmap scan report for XX.XXX.XX.XXX
 Host is up (0.0059s latency).
 Not shown: 999 closed tcp ports (reset)
@@ -32,4 +32,5 @@ PORT     STATE    SERVICE
 3306/tcp open     mysql
 
 # Nmap done at Mon Oct 20 20:25:45 2025 -- 256 IP addresses (2 hosts up) scanned in 9.95 seconds
+
 
